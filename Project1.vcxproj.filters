@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="asset">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="librarys">
+      <UniqueIdentifier>{bd10a316-62b4-4d6e-8395-d81c4d92c736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\OneDrive\桌面\SDL2-2.0.20\lib\x64\SDL2.lib">
+      <Filter>librarys</Filter>
+    </Library>
+    <Library Include="..\..\..\..\SDL2_image-2.0.5\lib\x64\SDL2_image.lib">
+      <Filter>librarys</Filter>
+    </Library>
+    <Library Include="..\..\..\..\OneDrive\桌面\SDL2-2.0.20\lib\x64\SDL2main.lib">
+      <Filter>librarys</Filter>
+    </Library>
+    <Library Include="..\..\..\..\OneDrive\桌面\SDL2-2.0.20\lib\x64\SDL2test.lib">
+      <Filter>librarys</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\桌面\SDL2-2.0.20\lib\x64\SDL2.dll">
+      <Filter>librarys</Filter>
+    </None>
+    <None Include="..\..\..\..\OneDrive\桌面\games\twini golf\SDL2_image.dll">
+      <Filter>librarys</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\OneDrive\桌面\SDL2-2.0.20\include\SDL.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="texturemanager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="mapp.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\my drwings\big wall.png">
+      <Filter>asset</Filter>
+    </Image>
+    <Image Include="ball.png">
+      <Filter>asset</Filter>
+    </Image>
+    <Image Include="racket.png">
+      <Filter>asset</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\..\Music\button sfx.wav">
+      <Filter>asset</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
